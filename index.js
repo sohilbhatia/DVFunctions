@@ -3,12 +3,12 @@ const admin = require("firebase-admin");
 const firebase = require("firebase");
 admin.initializeApp();
 const firebaseConfig = {
-  apiKey: "AIzaSyDRlq43xX0tNyhnSIaUjuGfNkqL6u1PD1Q",
-  authDomain: "drivervision-43546.firebaseapp.com",
-  databaseURL: "https://drivervision-43546.firebaseio.com",
-  projectId: "drivervision-43546",
-  storageBucket: "drivervision-43546.appspot.com",
-  messagingSenderId: "69234179575",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
 };
 firebase.initializeApp(firebaseConfig);
 
