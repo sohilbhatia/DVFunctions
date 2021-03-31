@@ -2,12 +2,7 @@ const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 admin.initializeApp();
 
-const myToken = ("etMZaLV6A0PtiGTetgyfAx:APA91bHtVSEVkjMo96VpFop0" +
-                "zq8Z521GqgNmsBPRwkyavAELhxwQZVOg_k-T" +
-                "yENkoCfZvaPhJcONXLV4Qip14lsiWw7mLG7" +
-                "RFSQVfkKZXfCjK_h6e-XYhBSZq1pfL_" +
-                "1XrMH_xRAi6lXG");
-
+const myToken = ();
 exports.newNodeUpdated = functions.database.ref("parties/users")
     .onWrite((event) => {
       const payload = {
